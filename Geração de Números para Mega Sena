@@ -1,8 +1,8 @@
     #include<stdio.h>
     #include<conio.h>
-    #include<stdlib.h>// necessário p/ as funções rand() e srand()
+    #include<stdlib.h>
     #include<stdio.h>
-    #include<time.h>//necessário p/ função time()
+    #include<time.h>
 int main(void){
     
     printf("**********PROGRAMINHA DO ÁLVARO**********\n\n\n");
