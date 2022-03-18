@@ -1,0 +1,31 @@
+    #include<stdio.h>
+    #include<conio.h>
+    #include<stdlib.h>// necessário p/ as funções rand() e srand()
+    #include<stdio.h>
+    #include<time.h>//necessário p/ função time()
+int main(void){
+    
+    printf("**********PROGRAMINHA DO ÁLVARO**********\n\n\n");
+    printf("      ****          ****\n");
+    printf("      ****          ****\n");
+    printf("      ****          ****\n");
+    printf("    **                  **\n");
+    printf("     **                **\n");
+    printf("      **              **\n");
+    printf("       **            **\n");
+    printf("        **************\n\n\n");
+    
+    int i;
+      
+    printf("Gerando 6 valores para a Mega Sena:\n\n");
+      
+    srand(time(NULL));
+      
+    for (i=0; i < 6; i++)
+    {
+        printf("%d ", rand() % 60);
+    }
+      
+    getch();
+    return 0;
+}
